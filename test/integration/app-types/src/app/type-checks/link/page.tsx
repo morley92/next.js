@@ -62,7 +62,7 @@ export default function page() {
       <Link href="/redirect">test</Link>
       <Link href="/redirect/v1/guides/x/page">test</Link>
       <Link href="/redirect/guides/x/page">test</Link>
-      <Link href={new URL('/about')}>test</Link>
+      <Link href={{ ...new URL('https://nextjs.org') }}>test</Link>
       <Link href="https://nextjs.org">test</Link>
       <Link href="http://nextjs.org">test</Link>
       <Link href="#id">test</Link>
